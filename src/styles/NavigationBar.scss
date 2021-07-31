@@ -1,0 +1,320 @@
+.navigation-bar{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 1440px;
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-style:normal;
+    color: #1D1F22;
+    background-color: #fff;
+
+}
+
+ul.nav-items{
+    list-style-type: none;
+  margin: 0;
+  padding: 0 101px 0 101px;
+  overflow: hidden;
+ 
+
+
+}
+
+li.nav-item{
+    display: inline;
+    float: left;
+    font-weight: normal;
+font-size: 16px;
+line-height: 120%;
+text-transform: uppercase;
+
+
+}
+
+li.nav-item a {
+    display: block;
+    padding: 28px 16px 32px 16px;
+    text-decoration: none;
+    color: #1D1F22;
+
+
+  }
+
+li.nav-item a:hover{
+    color:#5ECE7B;
+    
+    border-style: none none solid none;
+  
+  }
+
+li.action{
+    display: inline;
+    float: right;
+}
+
+li.action a{
+    display: block;
+       padding: 28px 8px 32px 0px;
+       text-decoration: none;
+       color: #1D1F22;
+       cursor: pointer;
+
+       }
+
+       
+.logo{
+ position: absolute;
+ left:50%;
+ top:29px;
+ 
+ 
+width:31px;
+height:29px;
+
+}
+.cart-img{
+    display: inline;
+    height:19px;
+    width: 22px;
+    margin-left:24px;
+}
+#active{
+  color:#5ECE7B;
+    
+  border-style: none none solid none;
+  
+}
+
+.currency-box{
+  // width:114px;
+  // height: 169px;
+  display: inline;
+  float: right;
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  background: #FFFFFF;
+  // box-shadow: 0px 4px 35px rgba(96, 101, 107, 0.19);
+  // padding: px 40px 20px 20px;
+  text-align: left;
+  
+  border-style: none;
+  border: 0px;
+  outline:0px;
+   
+
+}
+
+
+
+.cart-box{
+  width: 325px;
+ height: 540px;
+  position: absolute;
+  right:87px;
+  top: 78px;
+z-index : 1 ;
+      background-color: #fff;
+  padding:8px 16px 20px 16px;
+
+
+ .cart-title{
+     width: 118px;
+    height: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: left;
+    color: #1D1F22;
+    span{
+      font-weight: 500;
+
+    }
+    }
+
+    .cart-items{
+          display: grid;
+          grid-template-columns: auto;
+          margin-top: 25px;
+
+      .cart-item{
+            height: 137px;
+            width: 293px;
+            margin-bottom:41px ;
+          
+            font-family: 'Raleway', sans-serif;
+       .item-img{
+                    float: right;
+                    width:105px;
+                    height:137px;
+                    margin-left: 10px;
+                  }
+                  .item-name{
+                       
+                         height: 52px;
+                         width: 136px;
+                         font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 160%;
+                    
+                       }
+                       .item-price{
+                             
+                              height: 26px;
+                              width: 52px;
+                              margin-top: 5px;
+                              font-style: normal;
+                        
+                              font-weight: 500;
+                              font-size: 16px;
+                              line-height: 160%;
+                            }
+                            .box{
+                              width: 24px;
+                              height: 24px;
+                              background-color: #FFF;
+                              border: 1px solid #1D1F22;
+                              text-align: center;
+                              font-style: normal;
+                              font-weight: normal;
+                              font-size: 14px;
+                              line-height: 160%;
+                              font-family: 'Source Sans Pro', sans-serif;
+                            }
+                            .items-quantity{
+                                    font-style: normal;
+                              font-weight: 500;
+                              font-size: 16px;
+                              line-height: 160%;
+                                    float: right;
+                                    margin-right: 8px;
+                              
+                                  }
+                              .sizes{
+                                margin-top: 27px;
+                              
+                              }
+                                  .small{
+                                  
+                                
+                                    display:inline;
+                                    margin-right: 8px;
+                                    padding: 6px 7px 6px 7px;
+                                    
+                                  }
+                              
+                                  .medium{
+                                    
+                              
+                                    padding: 6px 7px 6px 7px;
+
+                                    display:inline;
+                              
+                              
+                                    
+                                  }
+                              
+                                  .increase{
+                                    float: right;
+                                  
+                                }
+                              
+                              .decrease{
+                                float: right;
+                              } 
+                            }
+                          }
+                              .total{
+                                display:inline;
+                                height: 19px;
+                                width: 55px;
+                                font-style: normal;
+                              font-weight: 500;
+                              font-size: 16px;
+                              line-height: 18px;
+                              font-family: 'Roboto', sans-serif;
+                              }
+                              
+                              .total-price{
+                                display: inline;
+                                font-style: normal;
+                              font-weight: bold;
+                              font-size: 16px;
+                              line-height: 160%;
+                                float:right;
+                                font-family: 'Raleway', sans-serif;
+                              
+                              } 
+                              
+                              .buttoms{
+                                
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                               margin-top: 35px;
+                               margin-bottom: 20px;
+                              
+                              //   flex: none;
+                              // order: 0;
+                              // flex-grow: 0;
+                              
+                              //   text-align: center;
+                              //   font-weight: 600;
+                              // font-size: 14px;
+                              // line-height: 120%;
+                              // box-sizing: border-box;
+                              font-style: normal;
+                              
+                              
+                              }
+                              
+                              .view-bag{
+                                height: 43px;
+                                width:140px;
+                              background: #FFFFFF;
+                              border: 1px solid #1D1F22;
+                              margin-right: 12px;
+                              font-family: 'Raleway', sans-serif;
+                              
+                              
+                              
+                              
+                              
+                              }
+                              .check-out{
+                                height: 43px;
+                                width:140px;
+                                background: #5ECE7B;
+                                color:#fff;
+                                font-family: 'Raleway', sans-serif;
+                              
+                               
+                              
+                              }
+                              
+
+
+          
+          
+            
+      
+        
+      
+      
+  
+  
+  
+  
+
+
+
+  
+
+
+}

@@ -1,0 +1,169 @@
+.cart-page{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1440px;
+    height: 745px;
+
+
+.cart-page-title{
+  position: absolute;
+  top: 160px;
+width: 84px;
+height: 40px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+text-transform: uppercase;
+color: #1D1F22;
+}
+
+
+.cart-page-items{
+  position: absolute;
+  top: 259px;
+    display:flex;
+    flex-direction: column;
+    // margin-top: 57px;
+    margin-bottom: 10px;
+
+  
+  .cart-page-item{
+    width: 1097px;
+    height: 225px;
+    border-top: 1px solid #E5E5E5;
+    padding:20px;
+    font-family: 'Raleway', sans-serif;
+
+
+    .item-brand{
+
+      font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 27px;
+width: 292px;
+height: 27px;
+margin-bottom: 16px;
+    }
+
+    .item-name{
+
+       height: 27px;
+       width: 292px;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 30px;
+       line-height: 27px;
+       margin-bottom: 20px;
+  
+     }
+     .item-img{
+      float: right;
+      width:141px;
+      height:185px;
+      margin-left: 12px;
+    }
+    .item-price{
+      
+      font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 18px;
+width: 86px;
+height: 46px;
+      margin-top: 5px;
+     
+    }
+    .box{
+      width: 63px;
+      height: 45px;
+      padding: 14px 26px 14px 26px;
+      background-color: #FFF;
+      border: 1px solid #1D1F22;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .sizes{
+      margin-top: 12px;
+      .small{
+        display:inline;
+        margin-right: 8px;
+        
+      }
+  
+      .medium{
+        background-color: #1D1F22;
+        color: #FFF;
+        display:inline;
+       }
+      
+    
+    }
+    .items-quantity{
+      float: right;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 160%;
+      margin-right: 8px;
+
+    }
+    .increase{
+      float: right;
+      width: 45px;
+      height: 45px;
+      border: 1px solid #1D1F22;
+      text-align: center;
+      padding-top: 15px;
+      font-weight: 200;
+      font-size: 50px;
+      line-height: 18px;
+      background-color: #FFF;
+      margin-right: 12px;
+
+
+    
+  }
+
+.decrease{
+  float: right;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #1D1F22;
+  text-align: center;
+   padding-top: 10px;
+  font-weight: 200;
+      font-size: 50px;
+      line-height: 18px;
+      background-color: #FFF;
+      margin-right: 12px;
+
+
+
+
+}
+
+
+
+  }
+
+  
+  
+    
+   
+    
+
+    
+    
+
+    
+
+     }
+
+}
